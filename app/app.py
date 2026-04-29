@@ -7,8 +7,8 @@ import os
 base_path = os.path.dirname(__file__)
 
 # Load models (use correct filenames)
-model = joblib.load(os.path.join(base_path, "model.pkl"))
-pca = joblib.load(os.path.join(base_path, "modelfinalpca3.pkl"))
+model = joblib.load(os.path.join(base_path, "pca_model.pkl"))
+pca = joblib.load(os.path.join(base_path, "pneumonia_logistic_model_final_pca_30.pkl"))
 
 st.title("Chest X-ray Pneumonia Detection")
 st.write("Upload a chest X-ray image to detect Pneumonia")
