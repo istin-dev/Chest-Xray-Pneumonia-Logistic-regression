@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 from PIL import Image
-
+import os
 # Correct path handling
 base_path = os.path.dirname(__file__)
 
